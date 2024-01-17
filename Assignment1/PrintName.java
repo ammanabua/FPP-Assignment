@@ -7,6 +7,6 @@ public class PrintName {
         System.out.println(string);
         System.out.println(string.length());
 
-        //The string length combines the characters, spaces and unicode characters to calculate the string length;
+        //The string length calculates the code units to determine the length of the string;
     }
 }
