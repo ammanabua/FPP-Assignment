@@ -2,7 +2,7 @@ public class Prog6 {
 
     static int min(int[] arrayofInts) {
 
-        int min = 0;
+        int min = arrayofInts[0];
         for(int i = 0; i < arrayofInts.length; ++i){
             if (arrayofInts[i] < min){
                 min = arrayofInts[i];
